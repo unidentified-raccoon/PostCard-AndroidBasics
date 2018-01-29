@@ -31,7 +31,6 @@
         android:layout_below="@id/manta"
         android:layout_centerInParent="true"
         android:layout_marginBottom="16dp"
-
         android:text="@string/card_title"
         android:textColor="@android:color/black"
         android:textSize="20sp"
