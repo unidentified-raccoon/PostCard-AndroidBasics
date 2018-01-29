@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Post Card</string>
+    <string name="card_title">Do Your Best!</string>
+    <string name="card_message">When you\'\re swimming in the sea, always try to dive as deep as you can and make some bubbles after</string>
+
+    <string name="manta4x_context_description">Manta Ray image</string>
 </resources>

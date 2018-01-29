@@ -5,9 +5,9 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_height="wrap_content"
+        android:id="@+id/wave-background"
+        android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:layout_alignParentTop="true"
         android:scaleType="centerCrop"
         android:src="@drawable/background4x">
     </ImageView>
@@ -20,35 +20,36 @@
         android:maxWidth="190dp"
         android:layout_marginBottom="32dp"
         android:layout_centerInParent="true"
+        android:contentDescription="@string/manta4x_context_description"
         android:src="@drawable/manta4x">
     </ImageView>
 
     <TextView
         android:id="@+id/text_title"
-        android:layout_below="@id/manta"
-        android:text="Do Your Best!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/manta"
         android:layout_centerInParent="true"
         android:layout_marginBottom="16dp"
-        android:fontFamily="Roboto"
+
+        android:text="@string/card_title"
+        android:textColor="@android:color/black"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:textColor="@android:color/black"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/text_main"
-        android:layout_below="@id/text_title"
-        android:text="When you're swimming in the sea, always try to dive as deep as you can and make some bulbs after"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:maxWidth="400dp"
+        android:layout_below="@id/text_title"
         android:layout_centerInParent="true"
+        android:fontFamily="@font/roboto"
         android:gravity="center"
+        android:maxWidth="400dp"
         android:paddingLeft="60dp"
         android:paddingRight="60dp"
-        android:textSize="16sp"
-        android:fontFamily="Roboto"
-        android:textColor="#80000000"/>
+        android:text="@string/card_message"
+        android:textColor="#80000000"
+        android:textSize="16sp" />
 
 </RelativeLayout>
